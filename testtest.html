@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <title>JQuerry Color Test</title>
+</head>
+<body>
+
+  <div id="main">
+    <div id="select">
+      <p id="paragraph">
+        Select:
+      </p>
+      <button id="button" class="change-text" onclick="hideBackground()">Text color</button>
+      <button id="button" class="change-background active" onclick="hidetext()">Background color</button>
+    </div>
+
+    <div id="background-color">
+      <div id="red1"></div>
+      <div id="green1"></div>
+      <div id="blue1"></div>
+    </div>
+
+    <div id="text-color">
+      <div id="red2"></div>
+      <div id="green2"></div>
+      <div id="blue2"></div>
+    </div>
+
+    <div id="swatch" class="ui-widget-content ui-corner-all">
+      <p id="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
